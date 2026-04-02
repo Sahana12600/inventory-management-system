@@ -4,7 +4,7 @@
 This project is a clean, powerful, and responsive **full-stack CRUD** (Create, Read, Update, Delete) application designed for seamless product management. It provides users with a central hub to manage digital inventory stocks, track item values, and visually alert managers when items drop below sustainable thresholds.
 
 ## Features
-- **Add Product:** Introduce new inventory items quickly with customizable properties including dynamically tracked minimum stock limits.
+- **Add Product:** Introduce new inventory items quickly with customizable properties including dynamically tracked minimum stock limits.check this error and fix it
 - **View All Products:** Visualize stock data across an interactive, responsive real-time dashboard.
 - **Update Product:** Effortlessly modify product pricing, categorization, or active inventory counts.
 - **Delete Product:** Permanently remove discontinued product lines.
@@ -70,6 +70,9 @@ Fill it out using the following default format:
 PORT=5000
 MONGODB_URI=your_mongodb_connection_string
 ```
+PORT=5000
+MONGODB_URI=mongodb://127.0.0.1:27017/inventory
+
 *(Example local string: `mongodb://127.0.0.1:27017/inventory`)*
 
 ## API Endpoints
